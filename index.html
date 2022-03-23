@@ -16,12 +16,30 @@
         crossorigin="anonymous"
         />
 
+        <!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+        <!--Fonts-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Playfair+Display:ital,wght@0,400;0,606;1,400&display=swap');
+
+            .openSans {
+                font-family: Open Sans, sans-serif;
+                font-weight: 600;
+            }
+
+            .playFair {
+                font-family: Playfair, serif;
+                font-weight: bold;
+            }
+
+            </style>
         <title>Beleza de Resenhas</title>
     </head>
     <body>
 
         <!-- Nav bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info openSans">
             <a class="navbar-brand" href="#">Beleza de Resenhas</a>
             <button
                 class="navbar-toggler"
@@ -85,9 +103,9 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner vh-100">
             <div class="carousel-item active">
-                <img src="assets/img/1-carrosel-tonico.png" class="d-block w-100" alt="Foto de divulgação tônico facil Océane">
+                <img src="assets/img/1-carrosel-tonico.png" class="d-block w-100" alt="Foto de divulgação tônico facial Océane">
             </div>
             <div class="carousel-item">
                 <img src="assets/img/2-carrosel-blush.png" class="d-block w-100" alt="Foto de divulgação blush Marília Mendonça">
@@ -110,29 +128,29 @@
     <!-- Card - Card Columns-->
     <div class="container">
 
-        <div class="card-deck">
+        <div class="card-deck mt-4">
             <div class="card">
                 <img src="assets/img/4-cards.PNG" class="card-img-top" alt="Foto de divulgação de paleta facial de 6 cores">
                 <div class="card-body">
-                    <h5 class="card-title">Paleta Facial de Contorno Collection</h5>
-                    <p class="card-text">A Paleta é aquele item que não pode faltar no nécessaire, afinal ela é muito prática e versátil, combinando com todas as opções de makes, desde o dia até à noite! </p>
-                    <p class="card-text"><small class="text-muted">Última atualização há 12h atrás</small></p>
+                    <h4 class="card-title playFair">Paleta Facial de Contorno Collection</h4>
+                    <p class="card-text openSans">A Paleta é aquele item que não pode faltar no nécessaire, afinal ela é muito prática e versátil, combinando com todas as opções de makes, desde o dia até à noite! </p>
+                    <p class="card-text openSans"><small class="text-muted">Última atualização há 12h atrás</small></p>
                 </div>
                 </div>
                 <div class="card">
                 <img src="assets/img/5-cards.PNG" class="card-img-top" alt="Foto de divulgação de máscara de cílios Sabrina Sato">
                 <div class="card-body">
-                    <h5 class="card-title">Lançamento Sabrina Sato by Océane</h5>
-                    <p class="card-text">Ela destaca e dá volume aos cílios com uma fórmula à prova d’água e rica em Óleo de Argan, ativo que hidrata e fortifica. Além do aplicador, que tem um formato que garante a aplicação uniforme da raiz às pontas sem acumular. Sonho de consumo, né?</p>
-                    <p class="card-text"><small class="text-muted">Última atualização há 1 dia atrás</small></p>
+                    <h4 class="card-title playFair">Lançamento Sabrina Sato by Océane</h4>
+                    <p class="card-text openSans">Ela destaca e dá volume aos cílios com uma fórmula à prova d’água e rica em Óleo de Argan, ativo que hidrata e fortifica. Além do aplicador, que tem um formato que garante a aplicação uniforme da raiz às pontas sem acumular. Sonho de consumo, né?</p>
+                    <p class="card-text openSans"><small class="text-muted">Última atualização há 1 dia atrás</small></p>
                 </div>
                 </div>
                 <div class="card">
                 <img src="assets/img/6-cards.PNG" class="card-img-top" alt="Foto de divulgação de umificador de ar com luz LED">
                 <div class="card-body">
-                    <h5 class="card-title">Cup Humidifier</h5>
-                    <p class="card-text">Umidificador de ar super prático, portátil e perfeito para aliviar os sintomas causados pelo tempo seco. Ele conta ainda com uma luz de LED, que pode ser usada para iluminar o ambiente e possui uma duração de 4 a 8 horas. Sensação de bem-estar garantido!</p>
-                    <p class="card-text"><small class="text-muted">Última atualização há 3 mins atrás</small></p>
+                    <h4 class="card-title playFair">Cup Humidifier</h4>
+                    <p class="card-text openSans">Umidificador de ar super prático, portátil e perfeito para aliviar os sintomas causados pelo tempo seco. Ele conta ainda com uma luz de LED, que pode ser usada para iluminar o ambiente e possui uma duração de 4 a 8 horas. Sensação de bem-estar garantido!</p>
+                    <p class="card-text openSans"><small class="text-muted">Última atualização há 3 mins atrás</small></p>
                 </div>
                 </div>
             </div>
@@ -142,10 +160,10 @@
     <!-- Texto e Midia-->
     <div class="row mt-5 mb-5">
         <div class="col-md-6">
-            <h3>Cuidados com a Pele </h3>
-            <p>Os séruns são fluidos altamente concentrados em princípios ativos e por ter uma textura leve, são rapidamente absorvidos pela pele, você pode encaixá-lo entre a etapa da limpeza e da hidratação na rotina de skincare. Nossa linha possui 5 séruns para diferentes tipos de pele e dilemas. Vem conhecer todos:
+            <h3 class=playFair>Cuidados com a Pele </h3>
+            <p class=openSans>Os séruns são fluidos altamente concentrados em princípios ativos e por ter uma textura leve, são rapidamente absorvidos pela pele, você pode encaixá-lo entre a etapa da limpeza e da hidratação na rotina de skincare. Nossa linha possui 5 séruns para diferentes tipos de pele e dilemas. Vem conhecer todos:
             </p>
-            <p>• Ácido Hialurônico: preenche e hidrata.<br>
+            <p class=openSans>• Ácido Hialurônico: preenche e hidrata.<br>
                 • Vitamina C + Ácido Salicílico: firmeza e controle da oleosidade.<br>
                 • Vitamina C + Ácido Ferulico: previne o envelhecimento e clareia manchas.<br>
                 • Retinol + Niacinamida: reduz linhas, rugas e melhora a elasticidade.<br>
@@ -163,13 +181,13 @@
     <!-- Formulário de contato-->
     <div class="row mb-5">
         <div class="col-md-12">
-            <h4 class="text-center">
+            <h2 class="text-center playFair">
                 Quer fazer parte do nosso Time das Belezuras?
-            </h4>
+            </h2>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row openSans">
         <div class="col-md-12">
             <form>
 
@@ -216,15 +234,20 @@
     <hr>
     <footer>
         <div class="container">
-        <div class="d-flex justify-content-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
-            </svg>   
-            |  Trabalho de Cunho Acadêmico. Todos os direitos são reservados aos devidos donos de imagem.  |
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
-            </svg>
-        </div>
+            <div class="row d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/ingrid-kis/" target="_blank">
+                    <i class="bi bi-linkedin display-4 text-dark p-3"></i>
+                </a>
+                
+
+                <a href="https://github.com/ingrid-kis" target="_blank">
+                    <i class="bi bi-github display-4 text-dark p-3"></i>
+                </a>    
+            </div>
+
+            <div class="row d-flex justify-content-center">
+            <p class=openSans>Trabalho de Cunho Acadêmico. Todos os direitos são reservados aos devidos donos de imagem.</p>
+            </div>
         </div>
     </footer>
     <!-- /Rodapé -->
