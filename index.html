@@ -176,7 +176,7 @@
                 <div class="form-group">
                     <label for="exampleFormControlInput1">E-mail de contato</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="nome@email.com">
+                    placeholder="nome@email.com" onkeyup="validaEmail()">
                     </div>
 
                     <div class="form-group">
@@ -191,16 +191,18 @@
 
                     <div class="form-group">
                     <label for="exampleFormControlTextarea1">Escreva uma breve apresentação pessoal</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Digite aqui...</textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" onkeyup="validaApresentacao()">Digite aqui...</textarea>
                     </div>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlFile1">Anexe seu currículo em documento do Word ou PDF</label>
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                    </div>
-
-                    <div class="form-group">
-                        <button type="button" class="btn btn-outline-success">Finalizar Cadastro</button>
+                    <div class="row px-3">
+                        <div class="form-group w-75">
+                            <label for="exampleFormControlFile1">Anexe seu currículo em documento do Word ou PDF</label>
+                            <input type="file" class="form-control-file " id="exampleFormControlFile1">
+                        </div>
+    
+                        <div class="form-group ml-auto">
+                            <button type="button" class="btn btn-outline-success" onclick="enviar()">Finalizar Cadastro</button>
+                        </div>
                     </div>
 
                 </div>
@@ -238,5 +240,9 @@
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"
         ></script>
+
+        <script src="./javascript/script.js">
+
+        </script>
     </body>
 </html>
